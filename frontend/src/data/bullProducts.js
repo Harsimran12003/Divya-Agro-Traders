@@ -3,7 +3,10 @@ const bullProducts = [
     id: "SD76 - BS5 Supersmart",
     name: "SD76 - BS5 Supersmart",
     mainImage: "/equipment/bull/1.webp",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/1_2.jpeg",
+      "/equipment/bull/1_3.webp"
+    ],
     description: `The Bull SD76 BS5 Supersmart is a next-generation backhoe loader engineered for maximum performance, reduced fuel consumption, and high durability in demanding construction and agricultural environments. It is powered by a BS-V compliant engine that ensures cleaner emissions while delivering excellent torque for heavy-duty loading, digging, and material-handling tasks.
 
 Key Features:
@@ -34,7 +37,10 @@ Construction sites, agriculture farms, material handling yards, road work, urban
     id: "CH76Challenger",
     name: "CH 76 Challenger",
     mainImage: "/equipment/bull/2.webp",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/2_2.jpg",
+      "/equipment/bull/2_3.webp"
+    ],
     description: `The Bull CH 76 Challenger is a high-performance backhoe loader built for aggressive digging, lifting, and loading operations. Its rugged construction and powerful drivetrain make it suitable for continuous heavy-duty usage in both urban and rural work environments.
 
 Key Features:
@@ -65,7 +71,10 @@ Road construction, mining support, agricultural land development, irrigation can
     id: "Grandia DLX",
     name: "Grandia DLX",
     mainImage: "/equipment/bull/3.webp",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/3_2.jpg",
+      "/equipment/bull/3_3.jpg"
+    ],
     description: `The Bull Grandia DLX is a premium-grade backhoe loader combining power, technology, and operator comfort for maximum on-site productivity. Its upgraded hydraulic system and reinforced loader arm make it one of the most reliable machines in its category.
 
 Key Features:
@@ -96,7 +105,10 @@ General excavation, farm utility handling, stone quarry operations, debris remov
     id: "Grandia",
     name: "Grandia",
     mainImage: "/equipment/bull/4.webp",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/4_2.jpeg",
+      "/equipment/bull/4_3.webp"
+    ],
     description: `The Bull Grandia is a robust, all-terrain backhoe loader crafted for reliability and consistent output across a wide range of operating conditions. Known for its ruggedness, the Grandia provides a balance of power, speed, and low maintenance costs.
 
 Key Features:
@@ -124,7 +136,10 @@ Rural development projects, construction materials handling, agricultural land s
     id: "HD96 4WD",
     name: "HD96 4WD",
     mainImage: "/equipment/bull/5.webp",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/5_2.webp",
+      "/equipment/bull/5_3.webp"
+    ],
     description: `The Bull HD96 4WD is a heavy-duty backhoe loader equipped with a four-wheel-drive system that enables superior traction and control across rough, muddy, or uneven terrains. Designed for extreme job-site performance, it is ideal for large construction and infrastructure operations.
 
 Key Features:
@@ -155,7 +170,10 @@ Mining sites, large construction projects, highway building, land clearing, and 
     id: "HD 100",
     name: "HD 100",
     mainImage: "/equipment/bull/6.png",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/6_2.webp",
+      "/equipment/bull/6_3.jpg"
+    ],
     description: `The Bull HD 100 is one of the most powerful backhoe loaders in its class, engineered for high-torque performance and extreme-duty applications. It is designed to deliver exceptional breakout force, fast cycle times, and superior reliability in long working hours.
 
 Key Features:
@@ -183,7 +201,10 @@ Mining support, large-scale construction sites, heavy material transport, founda
     id: "Loader HD 76",
     name: "Loader HD 76",
     mainImage: "/equipment/bull/7.webp",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/7_2.webp",
+      "/equipment/bull/7_3.webp"
+    ],
     description: `The Bull Loader HD 76 is a high-capacity front-end loader built for efficient material handling across construction, agricultural, and industrial environments. It is known for its smooth operation, powerful hydraulics, and robust structural integrity.
 
 Key Features:
@@ -211,7 +232,10 @@ Agriculture (manure & fodder handling), civil construction, warehouse loading, r
     id: "Skid Steer AV490",
     name: "Skid Steer AV490",
     mainImage: "/equipment/bull/8.png",
-    gallery: [],
+    gallery: [
+      "/equipment/bull/8_2.jpeg",
+      "/equipment/bull/8_3.jpg"
+    ],
     description: `The Bull Skid Steer AV490 is a compact, highly maneuverable machine designed for tight-space construction, landscaping, industrial loading, and urban infrastructure work. Its skid-steer design enables zero-radius turning, making it ideal for confined environments.
 
 Key Features:

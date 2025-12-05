@@ -4,9 +4,9 @@ const vishalProducts = [
     name: "Maize Cutter for Track Combines",
     mainImage: "/equipment/vishal/1.avif",
     gallery: [
-      "/images/products/maize-track-1.png",
-      "/images/products/maize-track-2.png",
-      "/images/products/maize-track-3.png",
+      "/equipment/vishal/1_2.jpeg",
+      "/equipment/vishal/1_3.webp",
+      
     ],
      description: `A maize cutter for track combines is a specialized header attachment engineered for the efficient harvesting of tall maize crops, particularly in wet or soft field conditions. It is designed to strip only the ear (and husk) from the stalk, improving efficiency by minimizing the material that goes through the rest of the combine's threshing system.
 
@@ -29,9 +29,9 @@ Key Features and Description:
     name: "Maize Cutter for TMC 41” – 5 Row",
     mainImage: "/equipment/vishal/2.avif",
     gallery: [
-      "/images/products/maize-tmc41-1.png",
-      "/images/products/maize-tmc41-2.png",
-      "/images/products/maize-tmc41-3.png",
+      "/equipment/vishal/2_2.avif",
+      "/equipment/vishal/2_3.avif",
+      
     ],
     description: `
 The "TMC 41 - 5 Row Maize Cutter" refers to a maize (corn) header attachment designed for efficient harvesting, typically used with combine harvesters such as Preet models. It enables farmers to harvest five rows of maize simultaneously with higher productivity and reduced manual effort.
@@ -59,9 +59,9 @@ Operational Details:
     name: "Maize Cutter T2 – 4 Row with 24” Spacing",
     mainImage: "/equipment/vishal/3.avif",
     gallery: [
-      "/images/products/maize-t2-4-1.png",
-      "/images/products/maize-t2-4-2.png",
-      "/images/products/maize-t2-4-3.png",
+      "/equipment/vishal/3_2.avif",
+      "/equipment/vishal/3_3.avif",
+      
     ],
     description: `The "Maize Cutter T2 - 4 Row with 24\" Spacing" is a specialized agricultural implement designed for efficient maize cultivation and harvesting, engineered to operate on fields with a standard 24-inch (60 cm) row spacing.\n
 Key Features and Specifications:\n
@@ -81,9 +81,8 @@ Key Features and Specifications:\n
     name: "Maize Cutter T2 – 7 Row with 18” Spacing",
     mainImage: "/equipment/vishal/4.avif",
     gallery: [
-      "/images/products/maize-t2-7-1.png",
-      "/images/products/maize-t2-7-2.png",
-      "/images/products/maize-t2-7-3.png",
+      "/equipment/vishal/4_2.avif",
+      "/equipment/vishal/4_3.avif",
     ],
     description: `The "Maize Cutter T2 – 7 Row with 18\" Spacing" is a specialized harvesting attachment designed for maize fields planted with narrow 18-inch (457 mm) spacing. Its multi-row system enables faster, more efficient harvesting with minimal crop loss.
 
@@ -117,9 +116,8 @@ Approximate Specifications:
     name: "Maize Cutter T2 – 6 Row with 24” Spacing",
     mainImage: "/equipment/vishal/5.avif",
     gallery: [
-      "/images/products/maize-t2-6-1.png",
-      "/images/products/maize-t2-6-2.png",
-      "/images/products/maize-t2-6-3.png",
+      "/equipment/vishal/5_2.avif",
+      "/equipment/vishal/5_3.avif",
     ],
     description: `The "Maize Cutter T2 - 6 Row with 24\" Spacing" is a specialized maize header or planter attachment designed for tractors or combine harvesters. It is engineered for efficient harvesting or planting operations with a standardized 6-row configuration and 24-inch (approx. 600 mm) row spacing.
 
@@ -159,9 +157,8 @@ Overall, the T2 - 6 Row 24\" Maize Cutter is a versatile, high-efficiency agricu
     name: "AC Cabin for All Wheel Combines",
     mainImage: "/equipment/vishal/6.avif",
     gallery: [
-      "/images/products/ac-cabin-1.png",
-      "/images/products/ac-cabin-2.png",
-      "/images/products/ac-cabin-3.png",
+      "/equipment/vishal/6_2.jpeg",
+      "/equipment/vishal/6_3.jpeg",
     ],
     description: `An AC cabin for all-wheel combines is a climate-controlled, enclosed operator station designed to provide a comfortable, safe, and productive working environment during long hours in the field. These cabins are a key feature of modern, heavy-duty combine harvesters and tractors, enabling year-round operation in extreme weather conditions such as intense heat, dust, and rain.
 
@@ -195,9 +192,8 @@ Benefits for All-Wheel Combines:
     name: "Vishal TMC 2x2",
     mainImage: "/equipment/vishal/7.avif",
     gallery: [
-      "/images/products/tmc2x2-1.png",
-      "/images/products/tmc2x2-2.png",
-      "/images/products/tmc2x2-3.png",
+      "/equipment/vishal/7_2.jpeg",
+      "/equipment/vishal/7_3.webp",
     ],
     description: `The Vishal TMC 2x2 is a tractor-mounted combine harvester engineered to perform multiple harvesting operations—reaping, threshing, and winnowing—in a single pass. Designed for efficiency and reliability, it is ideal for crops such as wheat, paddy, barley, oats, rye, and soybean. The model name "TMC" refers to Tractor Mounted Combine, and "2x2" signifies a cutter bar or configuration specific to this machine.
 
@@ -229,9 +225,8 @@ This machine combines modern harvesting technology with rugged design, making it
     name: "Vishal Marlin+ Grain Care",
     mainImage: "/equipment/vishal/8.avif",
     gallery: [
-      "/images/products/marlin-1.png",
-      "/images/products/marlin-2.png",
-      "/images/products/marlin-3.png",
+      "/equipment/vishal/8_2.avif",
+      "/equipment/vishal/8_2.jpeg",
     ],
     description: `The Vishal Marlin+ Grain Care is a track-type combine harvester designed for modern farming, engineered for strong performance even in challenging field conditions such as wet or muddy terrain. It performs harvesting, reaping, and threshing in a single streamlined process and is well-suited for crops like paddy and wheat.
 
@@ -255,9 +250,8 @@ Key Features:
     name: "Vishal Peregrain (Straw Walker)",
     mainImage: "/equipment/vishal/9.avif",
     gallery: [
-      "/images/products/peregrain-1.png",
-      "/images/products/peregrain-2.png",
-      "/images/products/peregrain-3.png",
+       "/equipment/vishal/9_2.jpg",
+      "/equipment/vishal/9_2.webp",
     ],
     description: `The "Vishal Peregrine (Straw Walker)" is a track combine harvester designed for paddy, wheat, and other crops, known for its efficiency in wet fields. It uses straw walker technology to simultaneously harvest, thresh, and reap, with a 7-foot cutter bar and a 5000-liter grain tank. The harvester is powered by a 100 HP engine, has a stainless steel body, and features hydraulic steering and heavy-duty tracks for high maneuverability.
 
@@ -289,9 +283,8 @@ Construction:
     name: "Vishal 312 Atom 36” BS4",
     mainImage: "/equipment/vishal/10.avif",
     gallery: [
-      "/images/products/atom36-1.png",
-      "/images/products/atom36-2.png",
-      "/images/products/atom36-3.png",
+     "/equipment/vishal/10_2.jpg",
+      "/equipment/vishal/10_2.webp",
     ],
     description: `The Vishal 312 Atom is a self-propelled mini-combine harvester designed for efficient harvesting of various grain crops in a single process. Known as "The Mini Beast," it features a BS4 engine and delivers powerful performance in a compact design.
 
@@ -321,9 +314,8 @@ Additional Highlights:
     name: "Vishal 495 President BS4",
     mainImage: "/equipment/vishal/11.avif",
     gallery: [
-      "/images/products/president495-1.png",
-      "/images/products/president495-2.png",
-      "/images/products/president495-3.png",
+       "/equipment/vishal/11_2.jpg",
+      "/equipment/vishal/11_3.webp",
     ],
     description: `The Vishal 495 President is a self-propelled combine harvester equipped with a powerful 133 HP engine and a 16-foot cutter bar, making it suitable for harvesting a wide range of crops such as wheat, soybeans, sunflower, and more. It performs harvesting, reaping, threshing, and winnowing in a single continuous process, greatly improving efficiency and reducing the need for manual labor.
 
@@ -354,9 +346,8 @@ Highlights:
     name: "Vishal435 Brisk+ (King) BS4",
     mainImage: "/equipment/vishal/12.avif",
     gallery: [
-      "/images/products/brisk-1.png",
-      "/images/products/brisk-2.png",
-      "/images/products/brisk-3.png",
+      "/equipment/vishal/12_2.avif",
+      "/equipment/vishal/12_3.avif",
     ],
     description: `The Vishal 435 Brisk is a self-propelled, multi-crop combine harvester manufactured by Manku Agro Tech Private Limited. It is known for its high efficiency and is designed to perform harvesting, reaping, threshing, and winnowing in a single process. The "BS4" in the name indicates that it is equipped with a Bharat Stage IV (BS-IV) compliant engine.
 
@@ -375,9 +366,8 @@ Engine and Power:
     name: "Vishal 368 Multiland+ 46” BS4",
     mainImage: "/equipment/vishal/13.avif",
     gallery: [
-      "/images/products/multiland46-1.png",
-      "/images/products/multiland46-2.png",
-      "/images/products/multiland46-3.png",
+      "/equipment/vishal/13_2.avif",
+      "/equipment/vishal/13_3.avif",
     ],
     description: `The Vishal 368 Multiland 46" BS4 is a self-propelled, multi-crop combine harvester designed for efficient harvesting of crops such as wheat, paddy, soybean, sunflower, and pulses. It performs harvesting, reaping, threshing, and winnowing in a single process, helping farmers save significant labor and time.
 
@@ -402,9 +392,8 @@ This combine harvester is engineered for reliability, durability, and high perfo
     name: "Vishal 368 Multiland+ 41” BS4",
     mainImage: "/equipment/vishal/14.avif",
     gallery: [
-      "/images/products/multiland41-1.png",
-      "/images/products/multiland41-2.png",
-      "/images/products/multiland41-3.png",
+      "/equipment/vishal/14_2.avif",
+      "/equipment/vishal/14_3.jpeg",
     ],
     description: `
 The Vishal 368 Multiland 41" BS4 is a self-propelled combine harvester that performs reaping, threshing, and winnowing in a single operation, making it ideal for multi-crop harvesting. It is suitable for crops such as wheat, paddy, soybean, sunflower, grams, and pulses. The machine is powered by a 101 HP Ashok Leyland engine and features a 41-inch cutter bar designed for efficient and clean cutting. Built to BS4 emission standards, it offers greater fuel efficiency and reduced emissions while delivering powerful field performance.

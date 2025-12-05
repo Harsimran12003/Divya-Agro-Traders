@@ -34,7 +34,7 @@ export default function CategoryPage() {
       <Navbar />
 
       {/* CATEGORY HEADER SECTION */}
-      <section className="relative pt-40 pb-20 bg-gradient-to-b from-green-50 to-white overflow-hidden">
+      <section className="relative pt-40 pb-15 bg-gradient-to-b from-green-50 to-white overflow-hidden">
 
         {/* Decorative background pattern */}
         <div
@@ -76,7 +76,7 @@ export default function CategoryPage() {
       </section>
 
       {/* PRODUCT GRID SECTION */}
-      <section className="relative py-20 bg-white">
+      <section className="relative py-10 bg-white">
         
         {/* subtle green circle glow */}
         <div className="absolute -top-20 left-0 w-96 h-96 bg-green-100 rounded-full blur-3xl opacity-40 -z-10"></div>
