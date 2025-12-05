@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full bg-gradient-to-br from-green-50 via-white to-green-100 pt-20 md:pt-40 pb-16 overflow-hidden">
+<section className="relative w-full bg-gradient-to-br from-green-50 via-white to-green-100 pt-28 md:pt-40 pb-16 overflow-hidden">
 
       {/* Decorative Leaf Pattern */}
       <img
