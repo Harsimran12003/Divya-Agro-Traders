@@ -124,9 +124,15 @@ export default function Navbar() {
 
             <p
               className="mt-3 pl-3 hover:text-green-600 cursor-pointer"
-              onClick={() => alert("Terms & Conditions page coming soon!")}
+              onClick={() => navigate("/terms-and-conditions")}
             >
               Terms & Conditions
+            </p>
+            <p
+              className="mt-3 pl-3 hover:text-green-600 cursor-pointer"
+              onClick={() => navigate("/privacy-policy")}
+            >
+              Privacy Policy
             </p>
           </details>
         </div>
