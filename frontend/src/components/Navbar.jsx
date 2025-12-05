@@ -83,11 +83,19 @@ export default function Navbar() {
               <div className="absolute top-8 right-0 bg-white shadow-lg rounded-lg py-3 w-60 border border-green-100 animate-fadeIn z-50">
                 <p
                   className="py-2 px-4 hover:bg-green-50 hover:text-green-700 cursor-pointer rounded-md"
-                  onClick={() => alert("Terms & Conditions page coming soon!")}
+                  onClick={() => navigate("/terms-and-conditions")}
                 >
                   Terms & Conditions
                 </p>
+                <p
+                  className="py-2 px-4 hover:bg-green-50 hover:text-green-700 cursor-pointer rounded-md"
+                  onClick={() => navigate("/privacy-policy")}
+                >
+                  Privacy Policy
+                </p>
               </div>
+
+              
             )}
           </li>
         </ul>

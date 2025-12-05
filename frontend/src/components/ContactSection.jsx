@@ -156,7 +156,7 @@ export default function ContactSection() {
               <button
                 type="submit"
                 disabled={submitting}
-                className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-full shadow hover:bg-green-800 transition disabled:opacity-60"
+                className="inline-flex items-center gap-3 px-6 py-3 bg-green-700 text-white rounded-full shadow hover:bg-green-800 transition disabled:opacity-60 cursor-pointer"
               >
                 {submitting ? "Sending..." : "Send Message"}
               </button>

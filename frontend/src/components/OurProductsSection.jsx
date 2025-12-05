@@ -33,7 +33,7 @@ export default function OurProductsSection() {
       <div
         className="absolute inset-0 opacity-25"
         style={{
-          backgroundImage: "url('/decor/pattern.png')",
+          // backgroundImage: "url('/decor/pattern.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -46,7 +46,7 @@ export default function OurProductsSection() {
           <img
             src="/decor/leaves-icon.png"
             alt="icon"
-            className="w-10 mx-auto opacity-80 mb-3"
+            className="w-12 mx-auto opacity-100 mb-0"
           />
           <h2 className="text-4xl md:text-5xl font-title font-bold">
             Our Products
@@ -63,7 +63,7 @@ export default function OurProductsSection() {
                 transition={{ duration: 0.6, delay: i * 0.2 }}
                 viewport={{ once: true }}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition transform relative cursor-pointer 
-                flex flex-col h-[480px]"   // FIXED CARD HEIGHT
+                flex flex-col h-[420px]"   // FIXED CARD HEIGHT
               >
                 {/* IMAGE */}
                 <div className="h-56 w-full overflow-hidden flex items-center justify-center bg-white">
@@ -84,10 +84,7 @@ export default function OurProductsSection() {
                     {item.desc}
                   </p>
 
-                  {/* Button (optional for symmetry) */}
-                  <button className=" text-green-700 font-semibold hover:text-green-900">
-                    View More →
-                  </button>
+                  
                 </div>
               </motion.div>
             </Link>
