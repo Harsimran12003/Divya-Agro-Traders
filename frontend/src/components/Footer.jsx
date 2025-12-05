@@ -56,8 +56,11 @@ export default function Footer() {
         </div>
 
         {/* COPYRIGHT */}
-        <p className="text-white/70 text-sm">
+        <p className="text-white/90 text-sm">
           © {new Date().getFullYear()} Divya Agro Traders • All Rights Reserved
+        </p>
+        <p className="text-white/70 text-[12px] mt-10 mb-0">
+         Powered by Excellence Web Services
         </p>
       </div>
     </footer>

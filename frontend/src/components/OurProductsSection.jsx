@@ -17,7 +17,7 @@ export default function OurProductsSection() {
       img: "/agrizone.png",
     },
     {
-      title: "Bull",
+      title: "Bull Products",
       slug: "bull",
       desc: "High-performance agricultural and construction machinery built for durability and powerful field productivity.",
       img: "/bull.png",

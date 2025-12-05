@@ -8,7 +8,7 @@ import ProductCard from "../components/ProductCard";
 
 // Import data
 import vishalProducts from "../data/vishalProducts";
-import bullProducts from "../data/bullProducts";
+import bullProducts from "../data/bullProducts.js";
 import agrizoneProducts from "../data/agrizoneProducts";
 import Footer from "../components/Footer.jsx";
 
