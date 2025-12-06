@@ -17,7 +17,10 @@ export default function ContactSection() {
 
   const contacts = [
     "+91-9936846667",
-    
+    "+91-9919334675",
+    "+91-8382026668",
+    "+91-9415920902",
+    "+91-9208746667",    
   ];
 
   function validate() {
