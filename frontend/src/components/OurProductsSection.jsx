@@ -20,7 +20,7 @@ export default function OurProductsSection() {
       title: "Bull Products",
       slug: "bull",
       desc: "High-performance agricultural and construction machinery built for durability and powerful field productivity.",
-      img: "/bull.jpeg",
+      img: "/bull.jpg",
     },
   ];
 
