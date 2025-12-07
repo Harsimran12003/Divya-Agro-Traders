@@ -57,10 +57,10 @@ export default function Footer() {
 
         {/* COPYRIGHT */}
         <p className="text-white/90 text-sm">
-          © {new Date().getFullYear()} Divya Agro Traders • All Rights Reserved
+          © 2019 Divya Agro Traders • All Rights Reserved
         </p>
-        <p className="text-white/70 text-[12px] mt-10 mb-0">
-         Powered by Excellence Web Services
+        <p className="text-white/70 text-[11px] mt-10 mb-0">
+         Powered by Foxstride Media Excellence Web Services
         </p>
       </div>
     </footer>

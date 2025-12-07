@@ -8,20 +8,20 @@ export default function OurProductsSection() {
       title: "Vishal Combine Harvesters",
       slug: "vishal",
       desc: "High-efficiency harvesters designed for maximum field productivity.",
-      img: "/vishal.png",
+      img: "/vishal.jpg",
     },
     {
       title: "Agrizone Implements",
       slug: "agrizone",
       desc: "Advanced farming equipment designed to enhance crop production with precision, reliability, and modern engineering.",
-      img: "/agrizone.png",
+      img: "/agrizone.jpg",
     },
     {
       title: "Bull Products",
       slug: "bull",
       desc: "High-performance agricultural and construction machinery built for durability and powerful field productivity.",
-      img: "/bull.png",
-    }
+      img: "/bull.jpeg",
+    },
   ];
 
   return (
@@ -29,16 +29,6 @@ export default function OurProductsSection() {
       id="products"
       className="w-full py-24 relative bg-[#0f2b15] text-white overflow-hidden"
     >
-      {/* Background Pattern */}
-      <div
-        className="absolute inset-0 opacity-25"
-        style={{
-          // backgroundImage: "url('/decor/pattern.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      ></div>
-
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
 
         {/* Section Title */}
@@ -62,20 +52,22 @@ export default function OurProductsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: i * 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition transform relative cursor-pointer 
-                flex flex-col h-[420px]"   // FIXED CARD HEIGHT
+                className="bg-white rounded-2xl shadow-lg overflow-hidden 
+                hover:-translate-y-2 hover:shadow-2xl transition transform 
+                cursor-pointer flex flex-col h-[340px]"
               >
-                {/* IMAGE */}
-                <div className="h-56 w-full overflow-hidden flex items-center justify-center bg-white">
+
+                {/* IMAGE BOX */}
+                <div className="w-full h-[190px] flex items-center justify-center bg-white p-8">
                   <img
                     src={item.img}
                     alt={item.title}
-                    className="w-full h-full  hover:scale-110 transition duration-700"
+                    className="w-full h-full object-contain transition duration-700"
                   />
                 </div>
 
                 {/* TEXT */}
-                <div className="p-6 text-gray-800 flex flex-col flex-grow">
+                <div className="p-3 pt-0 text-gray-800 flex flex-col flex-grow text-center">
                   <h3 className="text-2xl font-semibold text-green-900 font-title mb-3">
                     {item.title}
                   </h3>
@@ -83,9 +75,8 @@ export default function OurProductsSection() {
                   <p className="text-gray-600 leading-relaxed flex-grow">
                     {item.desc}
                   </p>
-
-                  
                 </div>
+
               </motion.div>
             </Link>
           ))}
