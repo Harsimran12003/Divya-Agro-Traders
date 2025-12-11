@@ -5,6 +5,9 @@ import CategoryPage from './pages/CategoryPage'
 import ProductDetails from './components/ProductDetails.jsx'
 import TermsAndConditions from './pages/TermsAndConditions.jsx'
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
+import AboutSection from './components/AboutSection.jsx'
+import Products from './pages/Products.jsx'
+import Contact from './pages/Contact.jsx'
 
 function App() {
   return (
@@ -15,6 +18,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Homepage />} />
+
+        <Route path="/about" element={<AboutSection />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/contact" element={<Contact />} />
       
       {/* Category pages */}
         <Route path="/products/:category" element={<CategoryPage />} />

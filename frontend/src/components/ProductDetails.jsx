@@ -7,6 +7,7 @@ import agrizoneProducts from "../data/agrizoneProducts";
 import Navbar from "../components/Navbar";
 import ContactSection from "../components/ContactSection";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -136,6 +137,7 @@ export default function ProductDetails() {
         {/* Contact Section */}
         <ContactSection />
       </section>
+      <Footer />
     </>
   );
 }

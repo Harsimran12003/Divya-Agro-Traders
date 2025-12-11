@@ -1,10 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Navbar from "./Navbar";
+import ContactSection from "./ContactSection";
+import Footer from "./Footer";
 
 export default function AboutSection() {
   return (
-    <section className="relative w-full bg-white pb-28 pt-32 overflow-hidden"
-    id="about">
+    <section className="relative w-full bg-white  pt-32 overflow-hidden"
+    >  
+    <Navbar />
 
       {/* CURVED TOP DIVIDER (premium Greenaura style) */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
@@ -124,6 +128,9 @@ export default function AboutSection() {
           </div>
         </motion.div>
       </div>
+      <ContactSection />
+      <Footer />
     </section>
+    
   );
 }

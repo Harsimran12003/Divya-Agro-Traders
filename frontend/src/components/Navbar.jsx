@@ -61,13 +61,13 @@ export default function Navbar() {
           <li className="hover:text-green-600 cursor-pointer" onClick={() => handleNavigation("home")}>
             Home
           </li>
-          <li className="hover:text-green-600 cursor-pointer" onClick={() => handleNavigation("about")}>
+          <li className="hover:text-green-600 cursor-pointer" onClick={() => navigate("/about")}>
             About Us
           </li>
-          <li className="hover:text-green-600 cursor-pointer" onClick={() => handleNavigation("products")}>
+          <li className="hover:text-green-600 cursor-pointer" onClick={() => navigate("/products")}>
             Our Products
           </li>
-          <li className="hover:text-green-600 cursor-pointer" onClick={() => handleNavigation("contact")}>
+          <li className="hover:text-green-600 cursor-pointer" onClick={() => navigate("/contact")}>
             Contact Us
           </li>
 
@@ -113,9 +113,9 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden bg-white shadow-lg px-6 py-5 space-y-4 text-lg font-medium border-t border-green-100">
           <p className="hover:text-green-600" onClick={() => handleNavigation("home")}>Home</p>
-          <p className="hover:text-green-600" onClick={() => handleNavigation("about")}>About Us</p>
-          <p className="hover:text-green-600" onClick={() => handleNavigation("products")}>Our Products</p>
-          <p className="hover:text-green-600" onClick={() => handleNavigation("contact")}>Contact Us</p>
+          <p className="hover:text-green-600" onClick={() => { setMobileOpen(false); navigate("/about"); }}>About Us</p>
+          <p className="hover:text-green-600" onClick={() => { setMobileOpen(false); navigate("/products"); }}>Our Products</p>
+          <p className="hover:text-green-600" onClick={() => { setMobileOpen(false); navigate("/contact"); }}>Contact Us</p>
 
           <details className="border-t pt-3">
             <summary className="cursor-pointer flex items-center justify-between">

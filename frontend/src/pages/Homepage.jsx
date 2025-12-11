@@ -29,9 +29,9 @@ export default function Homepage() {
       {/* NAVBAR */}
       <Navbar />
       <HeroSection />  
-      <AboutSection />   
-      <OurProductsSection />
       <OurStorySection />
+      <OurProductsSection />
+      
       <ContactSection />
       <Footer />
       <ScrollToTopButton />
